@@ -1,0 +1,46 @@
+header {
+    background-color: blue;
+    height: 10vh;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+nav {
+    background-color: coral;
+    border-radius: 5px;
+    order: -2;
+    /* flex-grow: 1; */
+    width: 20%;
+
+}
+
+article {
+    background-color: aqua;
+    /* flex-grow: 10; */
+    width: 50%;
+    border-radius: 5px;
+    margin: 0px 8px 0px 8px;
+
+}
+
+aside {
+    background-color: coral;
+    /* flex-grow: 1; */
+    border-radius: 5px;
+    width: 30%;
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+    border-radius: 5px;
+    margin-top: 8px;
+}
